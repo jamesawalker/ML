@@ -1,0 +1,12 @@
+import numpy as np, matplotlib.pyplot as plt, pandas as pd
+
+d = pd.read_csv("AB_NYC_2019.csv")
+
+latitude = d["latitude"]
+longitude = d["longitude"]
+price = d["price"]
+roomtype = d["room_type"]
+minstay = d["minimum_nights"]
+
+#plt.hist(latitude,bins=100)
+#plt.show()
